@@ -76,7 +76,7 @@ public class TrelloMapperTest {
     }
 
     @Test
-    public void mapToListDto() {
+    public void mapToListDtoTest() {
         //Given
         List<TrelloList> trelloLists = new ArrayList<>();
         TrelloList trelloList1 = new TrelloList("1", "trello list1", false);
@@ -93,7 +93,7 @@ public class TrelloMapperTest {
     }
 
     @Test
-    public void mapToCardDto() {
+    public void mapToCardDtoTest() {
         //Given
         TrelloCard trelloCard = new TrelloCard("Name", "Description", "1", "1");
 
@@ -108,7 +108,7 @@ public class TrelloMapperTest {
     }
 
     @Test
-    public void mapToCard() {
+    public void mapToCardTest() {
         //Given
         TrelloCardDto trelloCardDto = new TrelloCardDto("Name", "Description", "1", "1");
 
